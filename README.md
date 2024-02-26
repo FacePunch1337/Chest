@@ -1,8 +1,4 @@
 <p align="center">
- <img src="https://github.com/FacePunch1337/Chest/blob/main/chest.png">
-</p>
-
-<p align="center">
 <img src="https://github.com/FacePunch1337/Chest/blob/main/open.gif"/></h1>
 </p>
 
