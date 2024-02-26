@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&random=false&width=1000&height=100&lines=AI+item+generation)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&random=false&width=1000&height=200&lines=AI+item+generation)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://github.com/FacePunch1337/Chest/blob/main/open.gif"/></h1>
 </p>
