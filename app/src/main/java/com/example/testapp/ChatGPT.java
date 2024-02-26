@@ -25,7 +25,7 @@ public class ChatGPT {
     private TextView textView;
     private Context context;
     private String stringURLEndPoint = "https://api.openai.com/v1/chat/completions";
-    private String stringAPIKey = "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";
+    private String stringAPIKey = "";
     public String stringOutput = "";
     public String randomItem;
     public boolean isRequestInProgress = false;
