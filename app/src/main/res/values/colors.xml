@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="playerSquareColor">#008000</color>
+    <color name="common">#FFFFFF</color> <!-- Белый цвет для обычного уровня редкости -->
+    <color name="uncommon">#3DA33D</color> <!-- Зеленый цвет для необычного уровня редкости -->
+    <color name="rare">#3030AE</color> <!-- Синий цвет для редкого уровня редкости -->
+    <color name="epic">#811681</color> <!-- Фиолетовый цвет для эпического уровня редкости -->
+    <color name="legendary">#E3C10A</color> <!-- Золотой цвет для легендарного уровня редкости -->
+    <color name="mythical">#FF4500</color> <!-- Оранжевый цвет для мифического уровня редкости -->
+    <color name="relic">#CD5C5C</color> <!-- Темно-красный цвет для реликвии -->
+    <color name="divine">#8A2424</color> <!-- Красный цвет для божественного уровня редкости -->
+    <color name="beyond_comprehension">#E91E63</color> <!-- Фиолетовый цвет для уровня редкости "За гарнью понимания" -->
+</resources>

@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <!-- Картинка сумки -->
+    <ImageView
+        android:id="@+id/bagImageView"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="-15dp"
+        android:gravity="end"
+        app:srcCompat="@drawable/bag" />
+    <!-- Название предмета -->
+    <TextView
+        android:id="@+id/itemNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+
+    <!-- Класс предмета -->
+
+    <ImageView
+        android:id="@+id/upperImageView"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_below="@+id/itemNameTextView"
+        android:layout_marginTop="1dp" />
+
+    <TextView
+        android:id="@+id/itemClassTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upperImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Уровень редкости -->
+    <TextView
+        android:id="@+id/rarityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemClassTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Изображение сундука -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/rarityTextView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chest" />
+
+    <!-- ScrollView для характеристик и описания -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Характеристики -->
+            <TextView
+                android:id="@+id/itemPropsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Описание -->
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/generatedTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Кнопка закрытия -->
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Close"
+        android:visibility="gone" />
+
+    <!-- Кнопка взять -->
+    <Button
+        android:id="@+id/takeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/closeButton"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Take"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/profileImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemNameTextView"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toStartOf="@+id/itemNameTextView"
+        app:srcCompat="@drawable/book_207114" />
+
+
+</RelativeLayout>
